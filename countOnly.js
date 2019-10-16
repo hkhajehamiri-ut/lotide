@@ -41,7 +41,8 @@ assertEqual(5, 8);
 const countOnly = function (allItems, itemsToCount) {
   const results = {};
   for (const item of allItems) {
-    if (itemsToCount[item] && itemsToCount[item] === true) {
+    if (itemsToCount[item] && itemsToCount[item] === true) { 
+      // the true part is optional 
       console.log("item", item);
       if (results[item]) {
         results[item] += 1;
