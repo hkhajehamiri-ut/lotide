@@ -1,6 +1,6 @@
 const assertEqual = require('./assertEqual');
 
-  let head = function(array, expected) {
+  let head = function(array) {
       return array[0];
   }
 
