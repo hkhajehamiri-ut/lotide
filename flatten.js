@@ -43,11 +43,12 @@ assertArrayEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
 
 
 //Ask why recursion won't work here
+
 // const flatten = function(array) {
 //   let flattenedArray = [];
 //   for(item of array) {
-//     if (Array.isArray(item)) {
-//       flatten(item);
+//     if (Array.isArray(array[item])) {
+//       flatten(array[item]);
 //     } else {
 //       flattenedArray.push(item);
 //     }
