@@ -1,6 +1,9 @@
 const eqArrays = require('./eqArrays');
 
-const assertArraysEqual = function (arrOne, arrTwo) {
+
+
+
+const assertArrayEqual = function (arrOne, arrTwo) {
   if (eqArrays(arrOne, arrTwo) === true) {
     console.log(`Arrays are equal: ${arrOne} === ${arrTwo}`);
   } else {
@@ -8,4 +11,4 @@ const assertArraysEqual = function (arrOne, arrTwo) {
   }
 } 
 
-module.exports = assertArraysEqual;
+module.exports = assertArrayEqual;
