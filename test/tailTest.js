@@ -18,8 +18,7 @@ describe("#middle", () => {
   it("returns [2] for [1, 2]", () => {
     assert.deepEqual(tail([1, 2]), [2]); 
   });
-
-
+  
   it("returns [2, 4, 9, 5] for [1, 2, 4, 9, 5]", () => {
     assert.deepEqual(tail([1, 2, 4, 9, 5]), [2, 4, 9, 5]); 
   });
