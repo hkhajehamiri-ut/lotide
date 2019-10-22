@@ -1,7 +1,7 @@
 {
   "name": "@hildakh/lotide",
   "email" : "hilda.kh.amiri@gmail.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The complete lotide projects with tests. This was the project of W1 at Lighthouse Labs Web Development Bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
