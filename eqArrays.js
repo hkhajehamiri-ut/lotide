@@ -1,4 +1,3 @@
-
 const eqArrays = function (arrayOne, arrayTwo) {
   if (arrayOne.length !== arrayTwo.length) {
     return false;
@@ -7,11 +6,9 @@ const eqArrays = function (arrayOne, arrayTwo) {
       if (arrayOne[i] !== arrayTwo[i]) {
         return false;
       }
-
-    } return true;
-
+    }
+    return true;
   }
-}
-
+};
 
 module.exports = eqArrays;
